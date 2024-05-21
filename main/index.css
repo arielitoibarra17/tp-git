@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 10rem;
+    border-radius: 15rem solid black
+    ;
+}
+
+header{
+    background: url(https://1.bp.blogspot.com/-gUn39u7j0Mg/U0bkri-L1dI/AAAAAAAAFSE/XWJaY7HN3Ss/s1600/2014-twitter-header-dimensions+.jpg) ;
+
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:black
+}
+div.buscador{
+    text-align: center;
+    width: 100%;
+    background-color: orange;
+}
+.menu{
+    margin: 0;
+    background-color: orange;
+    list-style: none;
+    display: flex;
+}
+li{
+    flex: auto;
+    text-align: center;
+
+}
+a{
+    color: azure;
+    text-decoration: none;
+    
+}
+img.producto{
+    min-width: 13%;
+    max-width: 15%;
+    height: 65%;
+    padding: 0.1rem;
+    float: inline-end;
+}
+
+.caja1{
+    background-color: gray;
+    width: 500%;
+    height: 50%;
+
+    }

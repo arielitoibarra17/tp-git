@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(138, 202, 138);
+}
+.container{
+    width: 400;
+    background-color: rgb(239, 239, 123);
+    border: 20px double silver;
+    border-radius: 20px;
+}
+.titlle{
+    text-align: center;
+    margin: 1px;
+    padding: 10%;
+    border-bottom: 2px solid silver;
+}
+.first{
+    
+}
+.name{
+    margin-top: 5%;
+    text-align: center;
+    
+}
+.lastname{
+    margin-top: 10px;
+    text-align: center;
+}
+.age{
+    margin-top: 5%;
+    text-align: center;
+    
+}
+input.date{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nota{
+    font-size: 10px;
+    color: gray;
+}

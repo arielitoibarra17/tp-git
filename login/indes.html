@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../login/indes.html">
         <link rel="stylesheet" href="../login/index.css">
         <link rel="stylesheet" href="../login/index.js">
         
@@ -12,7 +11,7 @@
     <body>
         <div class="container">
 
-            <form action="">
+            <form id="loginform">
                 
                 <div class="title">
                     <h1>Administrador <br> Login</h1>
@@ -31,8 +30,10 @@
                 </div>
         
                 <div class="inicio">
-                    <button  type="button" onclick="button">Iniciar Sesion</button>
+                    <button id="loginButton" type="button">Iniciar Sesion</button>
                 </div>
+
+                <p id="mensaje"></p>
                     
                 <div class="recordar">
                     <label><input type="checkbox">Recordar</label>
@@ -41,9 +42,10 @@
                 <div class="registrar">
                     <a href="">Olvide mi Usuario/Contraseña</a>
                     <br>
-                    <a href="">Registrar nuevo Administrador</a>
+                    <a href="../singUp/index.html">Registrar nuevo Administrador</a>
                 </div>
             </form>
+          
         </div>
         </body>
         </html>

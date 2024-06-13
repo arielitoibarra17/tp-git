@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     border: 10rem;
-    border-radius: 15rem solid black
-    ;
+    border-radius: 15rem solid black;
+    background-color: beige;
 }
 
 header{
@@ -40,16 +40,60 @@ a{
     
 }
 img.producto{
-    min-width: 13%;
-    max-width: 15%;
-    height: 65%;
+    width: 100%;
+    height: auto;
     padding: 0.1rem;
     float: inline-end;
+    margin-top: -10%;
+    min-width: 100%;
+    max-height: min-content;
+
+
+    
+}
+    
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    padding: 20px;
+  }
+  
+  .caja {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    
+  }
+
+.c4{
+    grid-column: 1/2;
+}
+.c7{
+    grid-column: 1/2;
+}
+.c10{
+    grid-column: 1/2;
 }
 
-.caja1{
-    background-color: gray;
-    width: 500%;
-    height: 50%;
+footer{
+    background-color: rgb(117, 138, 117);
+    padding: 10px;
+    
+}
+img.logo{
+    width: 15px;
+    height: 15px;
+}
+li{
+   text-align: center;
+   list-style-type: none;
+   margin-top: 10px;
+}
+ul{
+    display: flex;
 
-    }
+    
+}
